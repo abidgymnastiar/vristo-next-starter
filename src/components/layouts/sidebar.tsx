@@ -32,7 +32,7 @@ import IconMenuPages from '@/components/icon/menu/icon-menu-pages';
 import IconMenuAuthentication from '@/components/icon/menu/icon-menu-authentication';
 import IconMenuDocumentation from '@/components/icon/menu/icon-menu-documentation';
 import { usePathname } from 'next/navigation';
-import { getTranslation } from '@/i18n';
+import { getTranslation } from '../../../i18n';
 
 const Sidebar = () => {
     const dispatch = useDispatch();
